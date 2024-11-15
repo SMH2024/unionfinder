@@ -18,7 +18,7 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
   description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+    'Unionbook helps you sell more by revealing sensitive information about your customers.',
 }
 
 function Hero() {
@@ -29,10 +29,10 @@ function Hero() {
         <Navbar
           banner={
             <Link
-              href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
+              href="/blog/Unionbook-raises-100m-series-a-from-tailwind-ventures"
               className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-[hover]:bg-fuchsia-950/30"
             >
-              Radiant raises $100M Series A from Tailwind Ventures
+              Unionbook raises $100M Series A from Tailwind Ventures
               <ChevronRightIcon className="size-4" />
             </Link>
           }
@@ -42,7 +42,7 @@ function Hero() {
             Close every deal.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Radiant helps you sell more by revealing sensitive information about
+            Unionbook helps you sell more by revealing sensitive information about
             your customers.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
@@ -87,7 +87,7 @@ function BentoSection() {
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          description="Unionbook uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
           graphic={
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
           }
@@ -125,7 +125,7 @@ function BentoSection() {
         <BentoCard
           eyebrow="Limitless"
           title="Sell globally"
-          description="Radiant helps you sell in locations currently under international embargo."
+          description="Unionbook helps you sell in locations currently under international embargo."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
@@ -148,7 +148,7 @@ function DarkBentoSection() {
             dark
             eyebrow="Networking"
             title="Sell at the speed of light"
-            description="Our RadiantAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
+            description="Our UnionbookAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
             graphic={
               <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
@@ -176,7 +176,7 @@ function DarkBentoSection() {
             dark
             eyebrow="Engagement"
             title="Become a thought leader"
-            description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
+            description="UnionbookAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
